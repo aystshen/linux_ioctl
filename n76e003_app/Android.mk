@@ -1,0 +1,8 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := n76e003.c
+LOCAL_MODULE := n76e003
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_EXECUTABLE)
